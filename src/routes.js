@@ -35,7 +35,7 @@ const routes = [
   {
     method: '*',
     path: '/{any*}',
-    handler: () => 'Halaman tidak ditemukan.',
+    handler: () => 'Page not found.',
   }
 ]
 
